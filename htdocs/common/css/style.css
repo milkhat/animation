@@ -1,0 +1,21 @@
+body {
+	height: 3300px;
+	color: white;
+}
+.content {
+	background-image: url("../images/bg-top-2.jpg");
+	background-size: cover;
+}
+.top-indicator {
+	position: fixed;
+	right: 10px;
+	top: 15px;
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:479px )
+{
+	.top-indicator {
+		font-size: 36px;
+	}
+}
